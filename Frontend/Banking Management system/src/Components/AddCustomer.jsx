@@ -48,7 +48,7 @@ export default function AddCustomer() {
           onChange={handleChange}
           required
         />
-        <button type="submit">Add</button>
+        <button type="submit">Add Details </button>
       </form>
     </div>
   );
