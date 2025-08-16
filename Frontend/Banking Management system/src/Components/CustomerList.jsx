@@ -35,12 +35,12 @@ export default function CustomerList() {
         {customers.map((cust) => (
           <li key={cust.id}>
             {cust.name} - {cust.email} - Balance: ₹{cust.balance}
-            <Link to={`/update/${cust.id}`} style={{ marginLeft: "10px" }}>
+            <Link to={`/update/${cust.id}`} style={{ marginLeft: "20px", marginTop: "5px"}}>
               ✏️ Edit
             </Link>
             <button
               onClick={() => deleteCustomer(cust.id)}
-              style={{ marginLeft: "10px" }}
+              style={{ marginLeft: "20px", marginTop: "5px" }}
             >
               ❌ Delete
             </button>
