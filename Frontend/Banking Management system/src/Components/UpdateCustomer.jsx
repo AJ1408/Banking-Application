@@ -59,7 +59,7 @@ export default function UpdateCustomer() {
           onChange={handleChange}
           required
         />
-        <button type="submit">Update</button>
+        <button  type="submit"> Update</button>
       </form>
     </div>
   );
